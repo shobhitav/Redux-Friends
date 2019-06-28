@@ -1,0 +1,3 @@
+curl -d '{ "username": "user", "password": "password" }' -H "Content-Type: application/json" -X POST http://localhost:5000/api/login
+
+curl -H "token: esfeyJ1c2VySWQiOiJiMDhmODZhZi0zNWRhLTQ4ZjItOGZhYi1jZWYzOTA0NUIhkufemQifQ" http://localhost:5000/api/friends
